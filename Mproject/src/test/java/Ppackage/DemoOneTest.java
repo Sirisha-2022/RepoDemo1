@@ -25,7 +25,7 @@ public class DemoOneTest {
 		driver.get("https://surendrareddy1248.github.io/WebElementsTesting/");
 		
 		String actualtxt = driver.findElement(By.id("testtext-1")).getText();
-		Assert.assertEquals(actualtxt, "Sample Text for testing.");
+		Assert.assertEquals(actualtxt, "Sample Text for testing by user2.");
 		
 	}
 	@AfterMethod
