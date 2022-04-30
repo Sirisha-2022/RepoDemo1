@@ -28,6 +28,8 @@ public class DemoOneTest {
 		Assert.assertEquals(actualtxt, "Sample Text for testing.");
 		
 	}
+
+
 	@AfterMethod
 	public void closure() {
 	driver.close();
